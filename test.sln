@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{0FBEAD36-02D1-41EC-A391-8B6EB523C021}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuaHangBanThuoc", "C:\Users\Admin\Downloads\CuaHangBanThuoc\CuaHangBanThuoc\CuaHangBanThuoc.csproj", "{EA774500-9FD3-4A85-9192-D47D6BC25770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0FBEAD36-02D1-41EC-A391-8B6EB523C021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FBEAD36-02D1-41EC-A391-8B6EB523C021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FBEAD36-02D1-41EC-A391-8B6EB523C021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
