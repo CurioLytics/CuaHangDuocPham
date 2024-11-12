@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F6A6982-D707-4D60-8104-5A13EE63A432}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Khám_chữa_bệnh</RootNamespace>
+    <AssemblyName>Khám chữa bệnh</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="ReaLTaiizor, Version=3.8.0.7, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ReaLTaiizor.3.8.0.7\lib\net48\ReaLTaiizor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRMBAOCAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBAOCAO.Designer.cs">
+      <DependentUpon>FRMBAOCAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBENHNHAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBENHNHAN.Designer.cs">
+      <DependentUpon>FRMBENHNHAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMDMTHUOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMDMTHUOC.Designer.cs">
+      <DependentUpon>FRMDMTHUOC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMHOADON.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMHOADON.Designer.cs">
+      <DependentUpon>FRMHOADON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmloaithuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmloaithuoc.Designer.cs">
+      <DependentUpon>frmloaithuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMLOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMLOGIN.Designer.cs">
+      <DependentUpon>FRMLOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmncc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmncc.Designer.cs">
+      <DependentUpon>frmncc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmnccfull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnccfull.Designer.cs">
+      <DependentUpon>frmnccfull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMNHANVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMNHANVIEN.Designer.cs">
+      <DependentUpon>FRMNHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLHieuThuoc.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLHieuThuoc.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FRMBENHNHAN.resx">
+      <DependentUpon>FRMBENHNHAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMDMTHUOC.resx">
+      <DependentUpon>FRMDMTHUOC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMHOADON.resx">
+      <DependentUpon>FRMHOADON.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmloaithuoc.resx">
+      <DependentUpon>frmloaithuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmncc.resx">
+      <DependentUpon>frmncc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnccfull.resx">
+      <DependentUpon>frmnccfull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLHieuThuoc.xsc">
+      <DependentUpon>QLHieuThuoc.xsd</DependentUpon>
+    </None>
+    <None Include="QLHieuThuoc.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLHieuThuoc.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLHieuThuoc.xss">
+      <DependentUpon>QLHieuThuoc.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drugs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_9046092.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-assistance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WBullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDoctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDrugs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WMore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WPatient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WReceipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WSmallBullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDASHBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDiagnosis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WExamination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WEXAMINE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WINSURANCE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WRECEIPT %28TRUE%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WLOGOUT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WCALENDER.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
