@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khám chữa bệnh", "Khám chữa bệnh.csproj", "{9F6A6982-D707-4D60-8104-5A13EE63A432}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuaHangBanThuoc", "..\..\..\..\Documents\UNIVERSITY\CuaHangBanThuoc\VisualStudio\CuaHangBanThuoc\VisualStudio\CuaHangBanThuoc.csproj", "{EA774500-9FD3-4A85-9192-D47D6BC25770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9F6A6982-D707-4D60-8104-5A13EE63A432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6A6982-D707-4D60-8104-5A13EE63A432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6A6982-D707-4D60-8104-5A13EE63A432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA774500-9FD3-4A85-9192-D47D6BC25770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
